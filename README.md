@@ -24,7 +24,9 @@ poetry install
 Run the experiment:
 
 ```bash
-cd src && poetry run cra/train.py
+poetry shell
+cd cra
+python3 train.py
 ```
 
 
