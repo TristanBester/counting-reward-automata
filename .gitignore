@@ -1,0 +1,9 @@
+# Files
+.DS_Store
+*.ipynb
+
+# Directories
+.venv/
+__pycache__/
+policies*
+dist/

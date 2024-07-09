@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cra"
+version = "0.1.0"
+description = ""
+authors = ["Tristan Bester <tristanbester@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.2"
+tqdm = "^4.65.0"
+matplotlib = "^3.7.1"
+letterenv = "^0.1.1"
+craft2d = "^0.1.4"
+networkx = "^3.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
